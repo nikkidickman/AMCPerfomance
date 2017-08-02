@@ -158,8 +158,7 @@
         {
           "_styles": {
             ".count": {
-              "color": "#74a3c7",
-              "font-size": "46px"
+              "color": "#74a3c7"
             },
             ".mbr-section-text": {
               "font-size": "13px"
@@ -204,8 +203,7 @@
         {
           "_styles": {
             ".count": {
-              "color": "#74a3c7",
-              "font-size": "46px"
+              "color": "#74a3c7"
             },
             ".mbr-section-text": {
               "font-size": "13px"
