@@ -1,0 +1,493 @@
+{
+  "settings": {
+    "name": "NewSite-08-02_1540",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#5aac98",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 12,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#74a3c7"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#74a3c7"
+            },
+            ".link, .dropdown-item": {
+              "color": "#74a3c7",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#74a3c7"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#74a3c7",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5aac98!important"
+            }
+          },
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-6",
+          "_params": {
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/amcn-logo-338x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">AUDIENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">CRM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">IFC</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Sundance</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SVOD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Trials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Subscribers</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Cancellers</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">EMAIL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">AMC Scorecard</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Brands</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Campaigns</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Messages</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Devices</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H1": {
+              "font-size": "19px",
+              "text-align": "right"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-5",
+          "_params": {
+            "paddingTop": "7",
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Key Performance Indicators 1 Jun- 19 Jun 2017 vs 1 Jun-19 Jun 2016",
+          "meta": ""
+        },
+        {
+          "_styles": {
+            ".count": {
+              "color": "#74a3c7",
+              "font-size": "46px"
+            },
+            ".mbr-section-text": {
+              "font-size": "13px"
+            }
+          },
+          "title4": "Videos",
+          "subtitle1": "subtitle",
+          "subtitle2": "subtitle",
+          "subtitle3": "subtitle",
+          "subtitle4": "subtitle",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-3",
+          "_params": {
+            "countersColor": "#74a3c7",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "containerColor1": "#f7f7f7",
+            "containerColor2": "#f0f0f0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/counters/01.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#fff",
+            "showTitles": true
+          },
+          "number1": "132",
+          "title1": "Cost<br>vs $101k",
+          "number2": "1",
+          "title2": "Sessions<br>vs 1.5M",
+          "number3": "33",
+          "title3": "Sales<br>vs 27.4k"
+        },
+        {
+          "_styles": {
+            ".count": {
+              "color": "#74a3c7",
+              "font-size": "46px"
+            },
+            ".mbr-section-text": {
+              "font-size": "13px"
+            }
+          },
+          "title4": "Videos",
+          "subtitle1": "subtitle",
+          "subtitle2": "subtitle",
+          "subtitle3": "subtitle",
+          "subtitle4": "subtitle",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-4",
+          "_params": {
+            "countersColor": "#74a3c7",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "containerColor1": "#f7f7f7",
+            "containerColor2": "#f0f0f0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///Users/mac/Library/Application%20Support/Mobirise.com/Mobirise/projectData/01.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#fff",
+            "showTitles": true
+          },
+          "number1": "4&nbsp;",
+          "title1": "Revenue<br>vs 27.4M<br><br>",
+          "number2": "4",
+          "title2": "Cost Of Sales<br>vs $3.69",
+          "number3": "28",
+          "title3": "ROAS<br>vs 27.7"
+        },
+        {
+          "form": {
+            "action": "nikki.dickman@simplypredict.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header8",
+          "_anchor": "header8-8",
+          "_params": {
+            "imageSize": "100",
+            "containerColor1": "#fffffd",
+            "containerColor2": "#fffffd",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showImage": true,
+            "showTitle": false,
+            "showText": false,
+            "showButton": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-08-02-at-4-1400x617.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Header With Image",
+          "text": "Full-screen intro with image at the top. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "form": {
+            "action": "nikki.dickman@simplypredict.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header8",
+          "_anchor": "header8-9",
+          "_params": {
+            "imageSize": "100",
+            "containerColor1": "#fffffd",
+            "containerColor2": "#fffffd",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showImage": true,
+            "showTitle": false,
+            "showText": false,
+            "showButton": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-08-02-at-4-1400x878.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Header With Image",
+          "text": "Full-screen intro with image at the top. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "form": {
+            "action": "nikki.dickman@simplypredict.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header8",
+          "_anchor": "header8-a",
+          "_params": {
+            "imageSize": "100",
+            "containerColor1": "#fffffd",
+            "containerColor2": "#fffffd",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showImage": true,
+            "showTitle": false,
+            "showText": false,
+            "showButton": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-08-02-at-4-1400x408.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Header With Image",
+          "text": "Full-screen intro with image at the top. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "form": {
+            "action": "nikki.dickman@simplypredict.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header8",
+          "_anchor": "header8-b",
+          "_params": {
+            "imageSize": "100",
+            "containerColor1": "#fffffd",
+            "containerColor2": "#fffffd",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showImage": true,
+            "showTitle": false,
+            "showText": false,
+            "showButton": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-08-02-at-4-1400x612.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Header With Image",
+          "text": "Full-screen intro with image at the top. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        }
+      ]
+    }
+  }
+}
